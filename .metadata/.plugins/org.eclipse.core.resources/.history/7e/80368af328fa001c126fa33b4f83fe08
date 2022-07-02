@@ -1,0 +1,5 @@
+package com.douglas.farmacia.model;
+
+public class Usuario {
+
+}

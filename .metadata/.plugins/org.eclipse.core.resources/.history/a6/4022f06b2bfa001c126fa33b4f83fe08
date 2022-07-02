@@ -1,0 +1,36 @@
+package com.douglas.farmacia.service;
+
+import com.douglas.farmacia.envio.Notificacao;
+import com.douglas.farmacia.model.Usuario;
+
+public class AtivarUsuarioService {
+	
+	Notificacao notificacao;
+	
+	
+	
+	public AtivarUsuarioService(Notificacao notificacao) {
+		super();
+		this.notificacao = notificacao;
+	}
+	
+
+
+
+	public Notificacao getNotificacao() {
+		return notificacao;
+	}
+
+
+
+
+	public void ativar(Usuario usuario) {
+		
+		usuario.ativar();
+		notificacao.envia(usuario, "Conta ativa");
+		
+		
+		
+	}
+
+}

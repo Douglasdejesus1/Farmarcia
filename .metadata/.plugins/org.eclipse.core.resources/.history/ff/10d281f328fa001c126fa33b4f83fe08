@@ -1,0 +1,5 @@
+package com.douglas.farmacia.service;
+
+public class EmitirNotaService {
+
+}

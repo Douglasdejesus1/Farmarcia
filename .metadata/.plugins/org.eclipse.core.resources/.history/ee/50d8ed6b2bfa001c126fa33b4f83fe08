@@ -1,0 +1,9 @@
+package com.douglas.farmacia.envio;
+
+import com.douglas.farmacia.model.Usuario;
+
+public interface Notificacao {
+	
+	public void envia(Usuario usuario, String mensagem);
+
+}

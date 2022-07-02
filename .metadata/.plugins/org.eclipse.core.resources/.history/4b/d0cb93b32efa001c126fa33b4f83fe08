@@ -1,0 +1,27 @@
+package com.douglas.farmacia.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.douglas.farmacia.model.Usuario;
+import com.douglas.farmacia.service.AtivarUsuarioService;
+
+@Controller
+public class TestController {
+private AtivarUsuarioService ativacaoUsuarioService;
+	
+	public TestController(AtivarUsuarioService ativacaoUsuarioService) {
+		this.ativacaoUsuarioService = ativacaoUsuarioService;
+	}
+	
+	@GetMapping("/caminho")
+	@ResponseBody
+	public String caminho() {
+		
+		Usuario usuario = new Usuario("Hanna", "111991", "hanna@gmail.com");
+		ativacaoUsuarioService.ativar(usuario);
+			
+		return "esseCaminho"; 
+	} 
+}

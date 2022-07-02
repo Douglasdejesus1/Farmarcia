@@ -1,0 +1,5 @@
+package com.douglas.farmacia.envio;
+
+public class NotificacaoEmail {
+
+}

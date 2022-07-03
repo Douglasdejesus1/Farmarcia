@@ -1,9 +1,10 @@
 package com.douglas.farmacia.di.envio;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 import com.douglas.farmacia.di.model.Usuario;
-
+@Primary
 @Component
 public class NotificacaoSMS implements Notificacao {
 

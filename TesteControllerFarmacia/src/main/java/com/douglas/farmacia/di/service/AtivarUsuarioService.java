@@ -12,14 +12,13 @@ import com.douglas.farmacia.di.model.Usuario;
 public class AtivarUsuarioService {
 
 	@Autowired
-	List<Notificacao> notificacoes;
+	Notificacao notificacao;
 
 	public void ativar(Usuario usuario) {
 
 		usuario.ativar();
-		for (Notificacao notificacao : notificacoes) {
 			notificacao.envia(usuario, "Conta ativa");
-		}
+		
 
 	}
 }

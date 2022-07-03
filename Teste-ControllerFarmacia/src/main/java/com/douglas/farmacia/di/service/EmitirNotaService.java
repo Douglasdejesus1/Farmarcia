@@ -1,29 +1,25 @@
 package com.douglas.farmacia.di.service;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.douglas.farmacia.di.envio.Notificacao;
 import com.douglas.farmacia.di.model.Remedio;
 import com.douglas.farmacia.di.model.Usuario;
-@Component
+
+//@Component
 public class EmitirNotaService {
-	
-	Notificacao notificacao;
+//	@Autowired
+	List<Notificacao> notificacoes;
 
-	public EmitirNotaService(Notificacao notificacao) {
-		super();
-		this.notificacao = notificacao;
-	}
+	public void Emitir(Usuario usuario, Remedio remedio) {
 
-	public Notificacao getNotificacao() {
-		return notificacao;
+		for (Notificacao notificacao : notificacoes) {
+			notificacao.envia(usuario, "nota fical do medicamento" + remedio.getPrincipioAtivo() + ", fabricante: "
+					+ remedio.getFabricante() + ", Preço total R$" + remedio.getTotal());
+		}
 	}
-	
-	public void Emitir(Usuario usuario,Remedio remedio) {
-		
-		notificacao.envia(usuario, "nota fical do medicamento"+remedio.getPrincipioAtivo()
-		+", fabricante: "+remedio.getFabricante()+", Preço total R$"+remedio.getTotal());
-	}
-	
 
 }

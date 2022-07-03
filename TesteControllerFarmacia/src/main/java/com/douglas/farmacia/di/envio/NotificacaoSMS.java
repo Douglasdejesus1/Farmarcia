@@ -1,10 +1,11 @@
 package com.douglas.farmacia.di.envio;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 import com.douglas.farmacia.di.model.Usuario;
-@Primary
+@Qualifier("altoPrioridade")
 @Component
 public class NotificacaoSMS implements Notificacao {
 

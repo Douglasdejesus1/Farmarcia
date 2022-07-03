@@ -22,7 +22,7 @@ private AtivarUsuarioService ativacaoUsuarioService;
 		Usuario usuario = new Usuario("Douglas", "douglas@email.com", "1195486");
 		ativacaoUsuarioService.ativar(usuario);
 			
-		return "CAminho";
+		return "Qualifier funcionando";
 	}
 
 }

@@ -1,9 +1,10 @@
 package com.douglas.farmacia.di.envio;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 import com.douglas.farmacia.di.model.Usuario;
-
+@Qualifier("baixaPrioridade")
 @Component
 public class NotificacaoEmail implements Notificacao {
 

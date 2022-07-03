@@ -624,3 +624,19 @@
 2022-07-03 08:16:55,310 [Worker-25: Launching TesteControllerFarmacia - TesteControllerFarmaciaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2022-07-03 08:16:55,315 [Worker-25: Launching TesteControllerFarmacia - TesteControllerFarmaciaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2022-07-03 08:16:55,318 [Worker-25: Launching TesteControllerFarmacia - TesteControllerFarmaciaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-03 08:16:55,319 [Worker-25: Launching TesteControllerFarmacia - TesteControllerFarmaciaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-07-03 08:16:55,319 [Worker-25: Launching TesteControllerFarmacia - TesteControllerFarmaciaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temp\AlgaFarmacia\TesteControllerFarmacia\src\test\resources
+2022-07-03 10:53:29,311 [Worker-34: Launching TesteControllerFarmacia - TesteControllerFarmaciaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-03 10:53:29,311 [Worker-34: Launching TesteControllerFarmacia - TesteControllerFarmaciaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-07-03 10:53:29,311 [Worker-34: Launching TesteControllerFarmacia - TesteControllerFarmaciaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-07-03 10:53:29,338 [Worker-34: Launching TesteControllerFarmacia - TesteControllerFarmaciaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-07-03 10:53:29,340 [Worker-34: Launching TesteControllerFarmacia - TesteControllerFarmaciaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-03 10:53:29,340 [Worker-34: Launching TesteControllerFarmacia - TesteControllerFarmaciaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-07-03 10:53:29,340 [Worker-34: Launching TesteControllerFarmacia - TesteControllerFarmaciaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temp\AlgaFarmacia\TesteControllerFarmacia\src\test\resources
+2022-07-03 10:54:10,860 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-03 10:54:10,860 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-07-03 10:54:10,861 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-07-03 10:54:10,886 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-07-03 10:54:10,887 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-03 10:54:10,887 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-07-03 10:54:10,887 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temp\AlgaFarmacia\TesteControllerFarmacia\src\test\resources

@@ -1,13 +1,16 @@
 package com.douglas.farmacia.di.envio;
 
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 import com.douglas.farmacia.di.model.Usuario;
-@Qualifier("altoPrioridade")
+
+@NotificadorEscolhido(NotificadorPrioridade.BAIXA)
 @Component
 public class NotificacaoSMS implements Notificacao {
+	NotificacaoSMS(){
+		System.out.println("PrioridadeAlta");
+	}
+
 
 	@Override
 	public void envia(Usuario usuario, String mensagem) {
